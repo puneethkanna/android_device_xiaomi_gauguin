@@ -145,7 +145,11 @@ DEVICE_PACKAGE_OVERLAYS += \
     NoCutoutOverlay \
     NotchBarKiller
 
-# Overlays -- Override vendor ones
+# Overlays
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
+# Power
 PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget \
