@@ -63,8 +63,23 @@ AB_OTA_UPDATER := false
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+<<<<<<< HEAD
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-parts.xml
+=======
+# Config Store
+PRODUCT_PACKAGES += \
+    disable_configstore
+
+# Device init scripts
+PRODUCT_PACKAGES += \
+    init.target.rc
+
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    XiaomiParts \
+    VioletParts
+>>>>>>> 5481fe7c (violet: overlay: Enable & Fix Smart Charging)
 
 # Display
 PRODUCT_PACKAGES += \
