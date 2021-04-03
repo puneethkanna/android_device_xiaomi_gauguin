@@ -140,6 +140,10 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.gauguin \
     android.hardware.power.stats@1.0-service
 
+# Powerstats
+PRODUCT_PACKAGES += \
+    android.hardware.power.stats@1.0-service.mock
+
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
 -include $(LOCAL_PATH)/product_prop.mk
