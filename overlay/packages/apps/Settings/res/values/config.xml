@@ -26,9 +26,6 @@
 
     <!-- Whether to show a preference item for mobile plan -->
     <bool name="config_show_mobile_plan">false</bool>
-    
-    <!-- Whether SELinux status should be shown or not. -->
-    <bool name="config_show_selinux_status">true</bool>
 
     <!-- Battery Health -->
     <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
@@ -38,6 +35,7 @@
 
     <!-- Whether or not the device is capable of multiple levels of vibration intensity.
          Note that this is different from whether it can control the vibration amplitude as some
-         devices will be able to vary their amplitude but do not possess enough dynamic range to          have distinct intensity levels -->
+         devices will be able to vary their amplitude but do not possess enough dynamic range to
+         have distinct intensity levels -->
     <bool name="config_vibration_supports_multiple_intensities">true</bool>
 </resources>

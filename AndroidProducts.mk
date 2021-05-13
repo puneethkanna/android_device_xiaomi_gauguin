@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/p404_gauguin.mk
+    $(LOCAL_DIR)/descendant_gauguin.mk
 
 COMMON_LUNCH_CHOICES := \
-    p404_gauguin-user \
-    p404_gauguin-userdebug \
-    p404_gauguin-eng
+    descendant_gauguin-user \
+    descendant_gauguin-userdebug \
+    descendant_gauguin-eng
