@@ -65,3 +65,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.vt_avail_ovr=1 \
     persist.dbg.wfc_avail_ovr=1
 
+#PPUI Stuff
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ppui.device_name=Gauguin \
+    ro.ppui.version=3.7 \
+    ro.ppui.version_code=Ragnarok \
+    ro.ppui.is_official=true \
+    ro.ppui.maintainer_name=PuneethKanna
