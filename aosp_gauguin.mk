@@ -7,6 +7,9 @@
 # Inherit from gauguin device
 $(call inherit-product, device/xiaomi/gauguin/device.mk)
 
+#PPUI Official
+CUSTOM_BUILD_TYPE=OFFICIAL
+
 # Inherit some common aosp stuff.
 $(call inherit-product, vendor/aosp/config/common.mk)
 TARGET_USES_AOSP_RECOVERY := true
