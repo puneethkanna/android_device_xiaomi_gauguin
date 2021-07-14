@@ -63,10 +63,9 @@ AB_OTA_UPDATER := false
 PRODUCT_PACKAGES += \
     XiaomiParts
 
-<<<<<<< HEAD
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-parts.xml
-=======
+
 # Config Store
 PRODUCT_PACKAGES += \
     disable_configstore
@@ -79,7 +78,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiParts \
     VioletParts
->>>>>>> 5481fe7c (violet: overlay: Enable & Fix Smart Charging)
 
 # Display
 PRODUCT_PACKAGES += \
@@ -143,7 +141,9 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay 
+    $(LOCAL_PATH)/overlay \
+    NoCutoutOverlay \
+    NotchBarKiller
 
 # Overlays -- Override vendor ones
 PRODUCT_PACKAGES += \
